@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+#box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -165px;
+    margin-top: -263px;
+    width: 271px;
+    background-color: rgb(255, 255, 255);
+    height: 475px;
+    padding: 20px;
+    border: 0px solid;
+    border-color: rgb(68, 98, 67);
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}    
+#screen{
+    background-color: rgb(0, 0, 0);
+    width: 247px;
+    padding: 10px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: white;
+}
+#keys{
+    margin-left: -5px;
+}
+#keys input {
+    width: 59px;
+    height: 59px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    float: left;
+    background-color: white;
+    border: none;
+    
+}
+#keys input:hover{
+    background-color: black;
+    color: white;
+}
+#equalsign{
+    height: 127px !important;
+    color: white !important;
+    background-color: black !important;
+
+}
+#equalsign:hover{
+    color: black !important;
+    background-color: white !important;
+    border: 2px solid black;
+}
+.shiftdown{
+    margin-top: -63px !important;
+}
+#smiley{
+    margin-top: -63px !important;
+}
+#equ{
+    height: 35px;
+    text-align: right;
+    font-size: 30px;
+  
+}
+#ans{
+    height: 65px;
+    text-align: right;
+    font-size: 45px;
+    
+}
+.rainbow-5:hover{
+    background-image:     linear-gradient(
+       to right, 
+       #E7484F,
+       #E7484F 16.65%,
+       #F68B1D 16.65%,
+       #F68B1D 33.3%,
+       #FCED00 33.3%,
+       #FCED00 49.95%,
+       #009E4F 49.95%,
+       #009E4F 66.6%,
+       #00AAC3 66.6%,
+       #00AAC3 83.25%,
+       #732982 83.25%,
+       #732982 100%,
+       #E7484F 100%
+      
+      
+      
+     );
+   animation:slidebg 2s linear infinite;
+ }
